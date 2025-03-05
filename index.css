@@ -1,3 +1,55 @@
-button{
-    background-color: #c8f560 !important;
+body {
+    background-color: #21251F;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #C8F560;
+    color: #21251F;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #A8D44F;
+}
+
+.tabs {
+    background-color: #4E515C;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab {
+    background-color: #4E515C;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: white;
+}
+
+.tab:hover {
+    background-color: #7862F8;
+}
+
+.minor-effect {
+    color: #7862F8;
+    font-weight: bold;
+}
+
+a {
+    color: #C8F560;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #A8D44F;
 }
