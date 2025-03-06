@@ -1,55 +1,28 @@
-body {
-    background-color: #21251F;
-    color: white;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
+/* General buttons */
 button {
-    background-color: #C8F560;
-    color: #21251F;
+    background-color: #A8D44F;
+    color: white;
     border: none;
-    padding: 10px 15px;
-    cursor: pointer;
+    padding: 10px 20px;
     font-size: 16px;
-    transition: background 0.3s ease;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
 }
 
 button:hover {
-    background-color: #A8D44F;
+    background-color: #C8F560; /* Slightly lighter green for hover */
 }
 
-.tabs {
-    background-color: #4E515C;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
+/* Specific buttons (Action, Subscribe, Sign Up) */
+button.Action, 
+button.subscribe, 
+button.signup {
+    background-color: #C8F560;
+    color: black; /* Adjust text for better contrast */
 }
 
-.tab {
-    background-color: #4E515C;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    color: white;
-}
-
-.tab:hover {
-    background-color: #7862F8;
-}
-
-.minor-effect {
-    color: #7862F8;
-    font-weight: bold;
-}
-
-a {
-    color: #C8F560;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #A8D44F;
+button.Action:hover, 
+button.subscribe:hover, 
+button.signup:hover {
+    background-color: #A8D44F; /* Swap hover effect */
 }
